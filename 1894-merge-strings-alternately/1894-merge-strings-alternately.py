@@ -15,4 +15,3 @@ class Solution(object):
             result.append(word2[j:])   
 
         return "".join(result)
-        
