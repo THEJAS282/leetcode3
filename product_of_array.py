@@ -1,7 +1,6 @@
 def productExceptSelf(self, nums):
         n = len(nums)
         result = [1] * n
-
         # Step 1: Prefix product
         prefix = 1
         for i in range(n):
@@ -15,4 +14,3 @@ def productExceptSelf(self, nums):
             suffix *= nums[i]
 
         return result
-        
