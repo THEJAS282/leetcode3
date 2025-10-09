@@ -14,4 +14,5 @@ def maxOperations(self, nums: list[int], k: int) -> int:
                 left += 1
             else:
                 right -= 1
+ 
         return operation
