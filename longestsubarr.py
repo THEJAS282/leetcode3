@@ -16,5 +16,4 @@ def longestSubarray(self, nums):
 
             maxi = max(maxi, j - i)
             j += 1
-
         return maxi
