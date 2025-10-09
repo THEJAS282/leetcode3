@@ -17,8 +17,8 @@ def compress(self, chars):
         Compresses the list of characters in-place using the counts of repeated characters.
         Returns the new length of the compressed list.
         """
-        i = 0  # Write pointer
-        j = 0  # Read pointer
+        i = 0  
+        j = 0 
         while j < len(chars):
             char = chars[j]
             count = 0
@@ -32,3 +32,4 @@ def compress(self, chars):
                     chars[i] = c
                     i += 1
         return i
+
