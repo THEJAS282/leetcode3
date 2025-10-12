@@ -13,5 +13,5 @@ def equalPairs(self, grid):
             col = tuple(grid[r][c] for r in range(n))
             if col in row_count:
                 count += row_count[col]
-
+                    
         return count
